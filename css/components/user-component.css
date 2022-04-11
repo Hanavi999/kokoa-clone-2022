@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    margin-top: 15px;
 }
 
 .user-component,
@@ -9,7 +10,8 @@
 } 
 
 .user-component__column:last-child {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
+    
 }
 
 .user-component__avatar {
@@ -30,15 +32,20 @@
     border-radius: 25px;
 }
 
-.user-component__title--not-blod {
-    font-weight: 400;
+.title-font {
+    font-weight: 600;
 }
 
 .user-component__title {
-    font-weight: 600;
+
     font-size: 22px;
+    color: black;
 }
 
+.user-component__member {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
 .user-component__subtitle {
     margin-top: 8px;
     color: rgba(0, 0, 0, 0.5);
@@ -47,3 +54,32 @@
 }
 
 
+.user-component__time {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.user-component__music {
+    border: 1px solid #5f5;
+    width: 260px;
+    height: 23px;
+    border-radius: 30px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.user-component__music span {
+    color: #000;
+    font-size: 13px;
+    
+}
+
+.user-component__music i {
+    color: #000;
+    font-size: 13px;
+    
+}
+
+.user-component__name {
+    display: flex;
+}

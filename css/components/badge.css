@@ -1,0 +1,16 @@
+.badge {
+    background-color: #ff6347;
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.talk {
+    margin-left: 10px;
+}
