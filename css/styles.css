@@ -8,8 +8,9 @@
 @import './components/screen-header.css';
 @import './components/badge.css';
 @import './components/user-component.css';
-@import './components/icon-raw.css'
-;
+@import './components/icon-raw.css';
+@import './components/alt-compoent-header.css';
+
 @import '../css/variables.css';
 /* Screens */
 @import './screen/login.css';
